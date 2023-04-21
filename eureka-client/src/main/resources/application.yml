@@ -5,3 +5,9 @@ eureka:
   instance:
     preferIpAddress: true
     lease-renewal-interval-in-seconds: 30
+spring:
+  application:
+    name: eureka-client
+
+server:
+  port: 0
