@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="eureka-client-2" />
         <module name="common" />
         <module name="eureka-client" />
         <module name="eureka-server" />
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
+      <module name="eureka-client-2" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>
