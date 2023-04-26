@@ -10,8 +10,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-    instance:
-      preferIpAddress: true
+#    instance:
+#      preferIpAddress: true
 
 book-service:
   url: http://localhost:8090/
+#  127.0.0.1:8090/
+
+#  http://localhost:8090/
