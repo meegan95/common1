@@ -1,0 +1,10 @@
+
+
+
+db.books.insertOne(
+{
+  "title": "Lord of the Rings",
+  "description": "Fantasies",
+  "imageLink": "pdf"
+}
+)

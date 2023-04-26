@@ -1,0 +1,22 @@
+server:
+  port: 8090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+spring:
+  application:
+    name: book-service
+#  config:
+#    import: "optional:configserver:"
+  profiles:
+    active: native
+  data:
+  mongodb:
+    port: 27017
+    host: localhost
+    database: mongo
+    username: admin
+    password: admin
