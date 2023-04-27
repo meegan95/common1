@@ -16,7 +16,7 @@ import java.util.List;
 public class ClientController {
     private final ClientService clientService;
 
-    @GetMapping("/")
+    @GetMapping
     List<Book> getAllBooks(){
         return clientService.getAllBooks();
     }

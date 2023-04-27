@@ -11,7 +11,8 @@ import java.util.List;
 @FeignClient(
         name = "book-service",
         url = "${book-service.url}",
-        configuration = FeignConfig.class
+        configuration = FeignConfig.class,
+        fallback = Fallback.class
 )
 public interface BookServiceConnector {
     @GetMapping("/api/books")

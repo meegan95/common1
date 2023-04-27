@@ -15,6 +15,10 @@ eureka:
 
 book-service:
   url: http://localhost:8090/
+
+feign:
+  circuitbreaker:
+    enabled: true
 #  127.0.0.1:8090/
 
 #  http://localhost:8090/
